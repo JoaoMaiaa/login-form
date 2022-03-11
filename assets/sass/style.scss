@@ -13,7 +13,6 @@ input{
     border:solid 0.5px var(--text-base)!important;
 }
 
-
 input:focus{
     box-shadow:0 0 0 .20rem var(--primary-color)!important;
     border:solid 0.5px var(--primary-color)!important;
@@ -35,6 +34,10 @@ input:focus{
     --background: #191816;
     --form-background: #24221f;
     --primary-color: #ffc632;
+}
+
+.text-yellow{
+    color:var(--primary-color)!important;
 }
 
 .text-title{
@@ -70,4 +73,21 @@ img{
     width:50vw;
     background-size:cover;
     background-position:center;
+}
+
+.input-group-text .form-control{
+    border-left:none!important;
+}
+
+.input-group-text{
+    border-right:none!important;
+}
+
+.btn-primary{
+    background-color:var(--primary-color)!important;
+    border-color:var(--primary-color)!important;
+}
+
+.btn-primary:focus{
+    box-shadow:0 0 0 .20rem var(--primary-color)!important;
 }
