@@ -1,0 +1,22 @@
+{
+  "name": "login-form",
+  "version": "1.0.0",
+  "description": "projeto login form do discover da rocketseat ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoMaiaa/login-form.git"
+  },
+  "author": "Joao Maia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoMaiaa/login-form/issues"
+  },
+  "homepage": "https://github.com/JoaoMaiaa/login-form#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
